@@ -43,7 +43,7 @@ required to complete them.
 
 | Name                                                                              | Short Description                                          | Tier     | Language |
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------| -------- |
-| [Bin2Dec](./Projects/1-Beginner/Bin2Dec/README.md)                                | Binary-to-Decimal number converter                         | Beginner | Python   |
+| [Bin2Dec](./Projects/1-Beginner/Bin2Dec)                                | Binary-to-Decimal number converter                         | Beginner | Python   |
 | [Border Radius Previewer](./Projects/1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | Beginner |          |
 | [Calculator](./Projects/1-Beginner/Calculator-App.md)                             | Calculator                                                 | Beginner |          |
 | [Christmas Lights](./Projects/1-Beginner/Christmas-Lights-App.md)                 | Simulate a string of Christmas lights                      | Beginner |          |
