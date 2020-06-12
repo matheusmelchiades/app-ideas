@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "venv/bin/python",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+}

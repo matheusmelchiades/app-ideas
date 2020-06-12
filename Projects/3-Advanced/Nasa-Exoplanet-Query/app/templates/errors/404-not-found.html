@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-position: bottom;
+      }
+
+      .error {
+        background-color: #000;
+        background-position: 0em -10em;
+        background-repeat: no-repeat;
+        background: url('https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/NASA-AD-background.png');
+      }
+
+      .page {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 100vh;
+        padding: 0px 120px;
+      }
+
+      .page
+      h2 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 5em !important;
+        padding: 10px 10px 10px 0px;
+        vertical-align: middle;
+        display: inline-block;
+      }
+
+      .page
+      h4 {
+        color: #83aef7;
+        font-weight: bold;
+        font-size: 2.7em;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 1em;
+        margin-left: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error">
+      <div class="page">
+        <h2>404</h2>
+        <h4>The cosmic object you are looking for has disappeared beyond the event horizon.</h4>
+      </div>
+    </div>
+  </body>
+</html>

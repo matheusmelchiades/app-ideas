@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Nasa Planets</title>
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+	<form class="uk-search uk-search-large">
+		<a href="" uk-search-icon></a>
+		<input class="uk-search-input" type="search" placeholder="Search...">
+	</form>
+
+	<button class="uk-button uk-button-default" type="button">
+		Filter By
+	</button>
+
+	<div uk-dropdown>
+		<ul class="uk-nav uk-dropdown-nav">
+			{% for field in fields %}
+			<li>
+				<span onclick="">
+					{{ field }}
+				</span>
+			</li>
+			{% endfor %}
+
+		</ul>
+	</div>
+
+	<table class="uk-table uk-table-striped">
+		<thead>
+			<tr>
+				{% for field in fields %}
+				<th>{{ field }}</th>
+				{% endfor %}
+			</tr>
+		</thead>
+
+		<tbody>
+			{% for row in data %}
+			<tr>
+				<td>{{ row.rowupdate.split('-')[0] }}</td>
+				<td>{{ row.pl_discmethod }}</td>
+				<td>{{ row.pl_hostname }}</td>
+				<td>{{ row.pl_facility }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+</body>
+
+<script>
+	setFilter() {
+		const tags = 
+	}
+</script>
+
+</html>
